@@ -1,0 +1,41 @@
+body{
+    font-family: 'Poppins';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    background-color: rgb(132, 30, 123);
+    color: white;
+}
+
+#word{
+    height: 50px;
+    background-color: gray;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#text{
+    height: 50px;
+    border: 2px;
+    border-style: solid;
+    border-color: gray;
+    border-radius: 15px;
+    text-align: center;
+    margin: 8px;
+}
+
+#game{
+    background-color: rgb(50, 46, 46);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+button{
+    background-color: rgb(132, 30, 123);
+    color: white;
+    border-style: none;
+    border-radius: 8px;
+    padding: 8px;
+    cursor: pointer;
+}
